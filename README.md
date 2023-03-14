@@ -303,10 +303,10 @@ Demo video of the project is available on [My YouTube Channel](https://www.youtu
 
 Tensorflow Object Counting API depends on the following libraries (see [requirements.txt]()):
 
-- TensorFlow Object Detection API
-- **tensorflow==1.5.0
-- **keras==2.0.8
-- **opencv-python==4.4.0.42
+- [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
+- **tensorflow==1.5.0**
+- **keras==2.0.8**
+- **opencv-python==4.4.0.42**
 - Protobuf 3.0.0
 - Python-tk
 - Pillow 1.0
@@ -324,7 +324,7 @@ TensorFlow Object Detection API have to be installed to run TensorFlow Object Co
 
 ### Important: Compatibility problems caused by TensorFlow2 version.
 
-This project developed with TensorFlow 1.15.0 version. If you need to run it with TensorFlow 2.x version, just replace tensorflow imports with tensorflow.compat.v1, and add tf.disable_v2_behavior thats all. 
+This project developed with TensorFlow 1.5.0 version. If you need to run this project with TensorFlow 2.x version, just replace tensorflow imports with tensorflow.compat.v1, and add tf.disable_v2_behavior that's all. 
 
 Instead of this import statement:
 

@@ -89,6 +89,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+detected_objects/
+the_output.avi
+input_images_and_videos/test.mp4
 
 # Spyder project settings
 .spyderproject
